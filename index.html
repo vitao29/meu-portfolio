@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <!--Fim Google fonts-->
+
+    <!--BOOTSTRAP ICONS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!--FIM BOOTSTRAP ICONS-->
+
+    <!--implantando javascript-->
+    <script src="menu.js" defer></script>
+
+    <title>Victor Alencar</title>
+</head>
+
+<body>
+    <!---para criação do cabeçario--->
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="Imagem/VA.png" alt="Logo do Victor Alencar" max-width:500px; width: auto;>
+                </a>
+            </div> <!--Logo-->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#topo-do-site">Inicio</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#portfolio">Projetos</a></li>
+                </ul>
+            </nav>
+            <div class="btn-contato">
+                <a href="#formulario">
+                    <button>Contato</button>
+                </a>
+            </div> <!--btn-contato-->
+
+
+            <div class="btn-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div><!--btn-menu-->
+
+            <div class="menu-mobile" id="menu-mobile">
+
+                <div class="btn-fechar">
+                    <i class="bi bi-x"></i>
+                </div><!--btn-fechar-->
+
+                <nav>
+                    <ul>
+                        <li><a href="#topo-do-site">Inicio</a></li>
+                        <li><a href="#especialidades">Especialidades</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#portfolio">Projetos</a></li>
+                        <li><a href="#formulario">Contato</a></li>
+                    </ul>
+                </nav>
+
+            </div><!--menu-mobile-->
+
+            <div class="overlay-menu" id="overlay-menu"></div>
+
+        </div> <!--interface-->
+    </header>
+
+    <!--a tag main só pode ser usada uma vez no site-->
+    <main>
+        <section class="topo-do-site" id="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>TRILHANDO O FUTURO: PORTIFÓLIO DE UM ASPIRANTE TECNOLÓGICO<span>.</span></h1>
+
+                        <p>Bem-vindo ao meu portfólio, voltado à busca incessante pelo conhecimento e pela paixão pela
+                            inovação na vasta e dinâmica área da tecnologia.</p>
+                        <p>Este compilado representa não apenas minhas habilidades técnicas, mas também minha jornada
+                            de aprendizado constante e meu compromisso com o avanço tecnológico. Ao explorar estas
+                            páginas, você descobrirá projetos desafiadores, experiências enriquecedoras e uma visão
+                            clara do meu potencial para contribuir significativamente para o futuro digital. Preparado
+                            para enfrentar os desafios do mundo tecnológico, convenço você a explorar as conquistas que
+                            moldaram minha trajetória e a vislumbrar o que está por vir.</p>
+                        <p>Vamos trilhar juntos o caminho rumo à excelência na tecnologia!</p>
+
+                        <div class="btn-contato">
+                            <a href="#formulario">
+                                <button>ENTRE EM CONTATO</button>
+                            </a>
+                        </div>
+                    </div> <!--txt-topo-site-->
+
+                    <div class="img-topo-site">
+                        <img src="Imagem/images.jpeg" alt="">
+                    </div><!--img-topo-site-->
+                </div> <!--flex-->
+            </div> <!--interface-->
+        </section> <!--topo-do-site-->
+
+        <section class="especialidades" id="especialidades">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
+                <div class="flex">
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-code-square"></i>
+                        <h3>Website</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. tempore, mulla rem dolore inventore
+                            delectus at.</p>
+                    </div> <!--especialidades-box-->
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-cart"></i>
+                        <h3>Loja online </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. tempore, mulla rem dolore inventore
+                            delectus at.</p>
+                    </div> <!--especialidades-box-->
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-substack"></i>
+                        <h3>Blog</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. tempore, mulla rem dolore inventore
+                            delectus at.</p>
+                    </div> <!--especialidades-box-->
+                </div> <!--flex-->
+            </div> <!--interface-->
+        </section> <!--especialidades-->
+
+        <section class="sobre" id="sobre">
+            <div class="interface">
+                <div class="flex">
+
+                    <div class="img-sobre">
+                        <img src="Imagem/unnamed.jpg" alt="">
+                    </div><!--img-sobre-->
+
+                    <div class="txt-sobre">
+                        <h2>Muito prazer,<span>Sou Victor Alencar.</span></h2>
+                        <p>Idade: 30 anos (nascido em 1994) Localização: São Paulo - Zona Leste, próximo ao ABC.</p>
+                        <p>Estudante de Análise e Desenvolvimento de Sistemas na Anhanguera - Polo Santo André</p>
+                        <p> Objetivo: Transição para a área de tecnologia.
+                        <p> Paixão por inovação e desenvolvimento de software.</p>
+                        <p>Sou uma pessoa que se destaca por sua dedicação incansável, habilidade de gerenciamento
+                            múltiplo de tarefas e proatividade.</p>
+                        <div class="btn-social">
+                            <a href="https://github.com/vitao29"><button><i class="bi bi-github"></i></button></a>
+                            <a href="https://www.linkedin.com/in/victor-alencar-ba5359156/"><button><i
+                                        class="bi bi-linkedin"></i></button></a>
+                            <a href="https://www.instagram.com/vitao_29/"><button><i
+                                        class="bi bi-instagram"></i></button></a>
+                        </div> <!--btn-social-->
+                    </div> <!--txt-sobre-->
+                </div> <!--flex-->
+            </div> <!--interface-->
+        </section> <!--Sobre-->
+
+        <section class="portfolio" id="portfolio">
+            <div class="interface">
+                <h2 class="titulo">MEU <span>PORTIFÓLIO.</span></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(Imagem/papel-de-parede-grafico-2d-com-gradientes-granulados-coloridos_23-2151001514.jpg);">
+                        <div class="overlay">Projeto 1</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(Imagem/papel-de-parede-grafico-2d-com-gradientes-granulados-coloridos_23-2151001514.jpg);">
+                        <div class="overlay">Projeto 2</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(Imagem/papel-de-parede-grafico-2d-com-gradientes-granulados-coloridos_23-2151001514.jpg);">
+                        <div class="overlay">Porjeto 3</div>
+                    </div>
+                </div><!--flex-->
+            </div> <!--interface-->
+        </section> <!--portifolio-->
+
+        <section class="formulario" id="formulario">
+            <div class="inteface">
+                <h2 class="titulo">FALA <span>COMIGO.</span></h2>
+
+                <form action="" method="post" action="envia.php">
+                    <input type="tel" name="" id="" placeholder="Seu nome completo:" name="nome" required>
+                    <input type="tel" name="" id="" placeholder="Seu e-mail:" name="email" required>
+                    <input type="tel" name="" id="" placeholder="Seu celular:" name="celular">
+                    <textarea name="" id="" placeholder="Sua mensagem:" name="mensagem" required></textarea>
+                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                </form>
+            </div><!--interface-->
+        </section><!--formulario-->
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="Imagem/VA.png" alt="">
+                    </div> <!--logo-footer-->
+
+                    <div class="btn-social">
+                        <a href="https://github.com/vitao29"><button><i class="bi bi-github"></i></button></a>
+                        <a href="https://www.linkedin.com/in/victor-alencar-ba5359156/"><button><i
+                                    class="bi bi-linkedin"></i></button></a>
+                        <a href="https://www.instagram.com/vitao_29/"><button><i
+                                    class="bi bi-instagram"></i></button></a>
+                    </div> <!--btn-social-->
+                </div><!--flex-->
+            </div> <!--line-footer-->
+
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i> <a
+                        href="mailto:victoralencar455@gmail.com">victoralencar455@gmail.com</a></p>
+            </div> <!--line-footer-->
+        </div><!--interface--
+    </footer>
+</body>
+</html>
